@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class ItemInfo : MonoBehaviour
 {
-    public int slotld;
-    public int itemld;
-
-    public void InltDummy(int slotld, int itemld)
+    public int slotId;      
+    public int itemId;     
+    public void InitDummy(int slotId, int itemId)
     {
-        this.slotld = slotld;
-        this.itemld = itemld;
+        this.slotId = slotId;
+        this.itemId = itemId;
     }
 }
